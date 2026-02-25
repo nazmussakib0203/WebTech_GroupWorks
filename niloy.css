@@ -1,0 +1,70 @@
+/* Header */
+.header {
+    background-color: #4CAF50;
+    color: white;
+        padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;   /* inline-block */
+}
+
+/* Main Content */
+.content {
+    border: 2px solid gray;  /* box model */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;        /* max-width */
+    position: relative;
+    overflow: hidden;        /* overflow */
+}
+
+/* Input */
+input {
+    padding: 8px;
+    width: 90%;
+    display: inline-block;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 60%;
+    position: relative;
+    z-index: 1;              /* z-index */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
