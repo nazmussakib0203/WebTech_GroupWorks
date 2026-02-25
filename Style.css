@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #e6f2ff;
+}
+
+.login_container {
+    max-width: 400px;          
+    margin: 100px auto;        
+    padding: 20px;            
+    border: 2px solid #333;   
+    background-color: white;      
+    z-index: 1;  
+}
+
+#mainHeading{
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#info {
+    text-align: center;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    /*display: inline-block; */
+}
+
+#loginBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    /*display: block;*/
+    margin-top: 20px;          
+}
+
+.login-container {
+    overflow: hidden;
+}
+
+#username, #password {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    /*display: inline-block;*/
+    color:rgb(56, 33, 3);
+}
